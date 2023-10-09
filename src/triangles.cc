@@ -1,4 +1,4 @@
-#include <triangles.hpp>
+#include <linear_algebra.hpp>
 //--------------------------------------------------------------------------
 int main()
 {
@@ -11,7 +11,7 @@ int main()
         // std::cin >> x >> y >> z;
         // надо вводить (x1, y1, z1), (x2, y2, z2), (x3, y3, z3); ... N раз по 3 точки
     }
-    Point<int> A{0, 1, 2};
-    Point<int> B{3, 3, 3};
-    Line<int> A_B{A, B};
+    Point A{0, 1, 2};
+    Point B{3, 3, 3};
+    Line A_B{A, B};
 }
